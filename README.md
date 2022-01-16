@@ -6,11 +6,15 @@ Convert XLSX file to CSV.
 
 ### homebrew tap
 
+```sh
 brew install gotidy/tap/x2c
+```
 
 ### homebrew
 
+```sh
 brew install x2c
+```
 
 #### Info 
 
@@ -18,11 +22,13 @@ The [formula in homebrew-core](https://github.com/Homebrew/homebrew-core/blob/ma
 
 ### go install¶
 
+```sh
 go install github.com/gotidy/x2c@latest
+```
 
 ### manually
 
-Download the pre-compiled binaries from the releases page and copy them to the desired location.
+Download the pre-compiled binaries from the [releases page](https://github.com/gotidy/x2c/releases) and copy them to the desired location.
 
 ## Converting
 
