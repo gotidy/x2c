@@ -83,7 +83,17 @@ func (l *ListCmd) Run(ctx *Context) error {
 	return nil
 }
 
+type VersionCmd struct {
+}
+
+func (l *VersionCmd) Run(ctx *Context) error {
+	fmt.Printf("Version %s\n\n", Version)
+	fmt.Println(description)
+	return nil
+}
+
 var cli struct {
 	Convert ConvertCmd `cmd:"" help:"Convert XLSX file CSV." default:"withargs"`
 	List    ListCmd    `cmd:"" help:"List sheets of XLSX file."`
+	Version VersionCmd `cmd:"" help:"Version."`
 }

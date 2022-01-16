@@ -31,6 +31,28 @@ changelog:
     exclude:
       - '^docs:'
       - '^test:'
-env_files:
-  github_token: ~/development/pet/github_token
+brews:
+  - tap:
+      owner: gotidy
+      name: homebrew-tap
+    folder: Formula
+    goarm: "7"
+    homepage:  https://github.com/gotidy/x2c
+    description: Convert XLSX file to CSV 
+    license: Apache License 2.0
+    test: |
+      system "#{bin}/x2c version"
+    install: |-
+      bin.install "x2c"
+      # bash_completion.install "completions/x2c.bash" => "x2c"
+      # zsh_completion.install "completions/x2c.zsh" => "_x2c"
+      # fish_completion.install "completions/x2c.fish"
+
+scoop:
+  bucket:
+    owner: gotidy
+    name: scoop-bucket
+  homepage:  https://github.com/gotidy/x2c
+  description: Convert XLSX file to CSV 
+  license: Apache License 2.0
 

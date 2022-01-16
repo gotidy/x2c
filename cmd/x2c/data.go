@@ -1,8 +1,7 @@
 package main
 
 const (
-	description = `
-Convert XLSX file to CSV.
+	description = `Convert XLSX file to CSV.
 
 Copyright (C) 2022 Evgeny Safonov.
 Apache License Version 2.0, January 2004
@@ -12,6 +11,7 @@ There is NO WARRANTY, to the extent permitted by law.
 
 Originally written by Evgeny Safonov.
 Please send bug reports and questions to 
-https://github.com/gotidy/x2c/issues.
-	`
+https://github.com/gotidy/x2c/issues.`
 )
+
+var Version string = "unknown"
