@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/gotidy/xlsx2csv/internal/converter"
+	"github.com/gotidy/x2c/internal/converter"
 	"github.com/rs/zerolog"
 )
 
@@ -84,6 +84,6 @@ func (l *ListCmd) Run(ctx *Context) error {
 }
 
 var cli struct {
-	Convert ConvertCmd `cmd:"" help:"Convert file." default:"withargs"`
-	List    ListCmd    `cmd:"" help:"List sheets."`
+	Convert ConvertCmd `cmd:"" help:"Convert XLSX file CSV." default:"withargs"`
+	List    ListCmd    `cmd:"" help:"List sheets of XLSX file."`
 }

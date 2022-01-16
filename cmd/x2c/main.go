@@ -13,7 +13,7 @@ func main() {
 	log := zerolog.New(output).With().Timestamp().Logger()
 
 	ctx := kong.Parse(&cli,
-		kong.Name("xlsx2csv"),
+		kong.Name("x2c"),
 		kong.Description(description),
 		// kong.DefaultEnvars("X2C"),
 	)

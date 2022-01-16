@@ -12,6 +12,6 @@ There is NO WARRANTY, to the extent permitted by law.
 
 Originally written by Evgeny Safonov.
 Please send bug reports and questions to 
-https://github.com/gotidy/xlsx2csv/issues.
+https://github.com/gotidy/x2c/issues.
 	`
 )

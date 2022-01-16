@@ -1,4 +1,4 @@
-module github.com/gotidy/xlsx2csv
+module github.com/gotidy/x2c
 
 go 1.18
 
@@ -6,6 +6,7 @@ require (
 	github.com/alecthomas/kong v0.3.0
 	github.com/rs/zerolog v1.26.1
 	github.com/xuri/excelize/v2 v2.5.0
+	golang.org/x/text v0.3.6
 )
 
 require (
@@ -16,5 +17,4 @@ require (
 	github.com/xuri/efp v0.0.0-20210322160811-ab561f5b45e3 // indirect
 	golang.org/x/crypto v0.0.0-20211215165025-cf75a172585e // indirect
 	golang.org/x/net v0.0.0-20210805182204-aaa1db679c0d // indirect
-	golang.org/x/text v0.3.6 // indirect
 )

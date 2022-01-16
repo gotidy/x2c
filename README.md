@@ -1,27 +1,27 @@
-# xlsx2csv
+# x2c
 
 Convert XLSX file to CSV.
 
 ## Installation
 
-go install github.com/gotidy/xlsx2csv
+go install github.com/gotidy/x2c
 
 ## Converting
 
 ### Examples
 
 ```sh
-xlsx2csv  -b -c utf-16le test.xlsx test-{{num}}.csv
+x2c -b -c utf-16le test.xlsx test-{{num}}.csv
 ```
 
 ```sh
-xlsx2csv test.xlsx > test.csv
+x2c test.xlsx > test.csv
 ```
 
 ### Usage
 
 ```sh
-Usage: xlsx2csv convert <source> [<output>]
+Usage: x2c convert <source> [<output>]
 
 Convert file.
 
@@ -58,7 +58,7 @@ Flags:
 ## List sheets
 
 ```sh
-Usage: xlsx2csv list <source>
+Usage: x2c list <source>
 
 List sheets.
 
