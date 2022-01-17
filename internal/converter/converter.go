@@ -115,7 +115,7 @@ func (c *Converter) Convert() error {
 
 		switch encName, err := htmlindex.Name(encoder); {
 		case err != nil:
-			return fmt.Errorf("getting encoder name: %w", c.options.Encoding, err)
+			return fmt.Errorf("getting encoder name \"%s\": %w", c.options.Encoding, err)
 		case inStrings(encName, EncodingsWithBOM):
 		default:
 			bom = nil

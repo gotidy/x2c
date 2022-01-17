@@ -16,7 +16,7 @@ brew install gotidy/tap/x2c
 brew install x2c
 ```
 
-#### Info 
+#### Info
 
 The [formula in homebrew-core](https://github.com/Homebrew/homebrew-core/blob/master/Formula/x2c.rb) might be slightly outdated. Use our homebrew tap to always get the latest updates.
 
