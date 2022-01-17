@@ -20,7 +20,7 @@ brew install x2c
 
 The [formula in homebrew-core](https://github.com/Homebrew/homebrew-core/blob/master/Formula/x2c.rb) might be slightly outdated. Use our homebrew tap to always get the latest updates.
 
-### go install¶
+### go install
 
 ```sh
 go install github.com/gotidy/x2c@latest
